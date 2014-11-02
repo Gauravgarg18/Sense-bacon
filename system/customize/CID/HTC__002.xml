@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customization_form>
+  <category name="system">
+    <module name="locale">
+      <function>
+        <set name="single">
+          <item name="total_list">ar_SA;bg_BG;ca_ES;cs_CZ;da_DK;de_DE;el_GR;en_GB;en_US;es_ES;et_EE;fa_IR;fi_FI;fr_FR;hr_HR;hu_HU;hy_AM;it_IT;iw_IL;kk_KZ;lt_LT;lv_LV;nb_NO;nl_NL;pl_PL;pt_PT;ro_RO;ru_RU;sk_SK;sl_SI;sr_RS;sv_SE;tr_TR;uk_UA;</item>
+          <item type="boolean" name="ar_SA">yes</item>
+          <item type="boolean" name="bg_BG">yes</item>
+          <item type="boolean" name="ca_ES">yes</item>
+          <item type="boolean" name="cs_CZ">yes</item>
+          <item type="boolean" name="da_DK">yes</item>
+          <item type="boolean" name="de_DE">yes</item>
+          <item type="boolean" name="el_GR">yes</item>
+          <item type="boolean" name="en_GB">yes</item>
+          <item type="boolean" name="en_US">yes</item>
+          <item type="boolean" name="es_ES">yes</item>
+          <item type="boolean" name="et_EE">yes</item>
+          <item type="boolean" name="fa_IR">yes</item>
+          <item type="boolean" name="fi_FI">yes</item>
+          <item type="boolean" name="fr_FR">yes</item>
+          <item type="boolean" name="hr_HR">yes</item>
+          <item type="boolean" name="hu_HU">yes</item>
+          <item type="boolean" name="hy_AM">yes</item>
+          <item type="boolean" name="it_IT">yes</item>
+          <item type="boolean" name="iw_IL">yes</item>
+          <item type="boolean" name="kk_KZ">yes</item>
+          <item type="boolean" name="lt_LT">yes</item>
+          <item type="boolean" name="lv_LV">yes</item>
+          <item type="boolean" name="nb_NO">yes</item>
+          <item type="boolean" name="nl_NL">yes</item>
+          <item type="boolean" name="pl_PL">yes</item>
+          <item type="boolean" name="pt_PT">yes</item>
+          <item type="boolean" name="ro_RO">yes</item>
+          <item type="boolean" name="ru_RU">yes</item>
+          <item type="boolean" name="sk_SK">yes</item>
+          <item type="boolean" name="sl_SI">yes</item>
+          <item type="boolean" name="sr_RS">yes</item>
+          <item type="boolean" name="sv_SE">yes</item>
+          <item type="boolean" name="tr_TR">yes</item>
+          <item type="boolean" name="uk_UA">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData">
+      <function>
+        <set name="single">
+          <item name="device_name">HTC One_M8</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData1">
+      <function>
+        <set name="single">
+          <item name="sw_number">NA</item>
+        </set>
+      </function>
+    </module>
+    <module name="Settings">
+      <function name="customized_value">
+        <set name="single">
+          <item name="single_usb_tethering">false</item>
+        </set>
+      </function>
+    </module>
+    <module name="defaultTime1224">
+      <function>
+        <set name="single">
+          <item name="default">24</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="application">
+    <module name="Crash_Report">
+      <function name="setting">
+        <set name="single">
+          <item name="turn_off_report" type="boolean">no</item>
+          <item name="turn_off_application_log" type="boolean">no</item>
+        </set>
+      </function>
+    </module>
+    <module name="HtcPhone">
+      <function name="specificDialNumbers">
+        <set name="single">
+          <item name="numbers">01,02,03,04,92,93,94</item>
+        </set>
+      </function>
+    </module>
+    <module name="FOTA">
+      <function name="settings">
+        <set name="single">
+          <item name="Default_Download_Wifi" type="boolean">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="roaming">
+      <function name="default_roaming">
+        <set name="plenty" max="5">
+          <item name="national_roaming">1</item>
+          <item name="data_roaming">0</item>
+          <item name="national_roaming_Blacklist">23210,23205,22299,24002,23806</item>
+          <item name="national_roaming_channel_rom_support">23210,23205,23420,27205,22299,24002,23806,26006,23430,23408,21902,42507</item>
+        </set>
+      </function>
+    </module>
+    <module name="OOBE">
+      <function name="Step_Config">
+        <set name="single">
+          <item name="Data_Connection" type="boolean">yes</item>
+        </set>
+      </function>
+      <function name="Data_Connection_Config">
+        <set name="single">
+          <item name="Show_Mobile" type="boolean">yes</item>
+        </set>
+      </function>
+      <function name="Mobile_Data_Config">
+        <set name="single">
+          <item name="Default" type="boolean">yes</item>
+          <item name="PromptWarningDialog" type="boolean">yes</item>
+        </set>
+      </function>
+      <!--%%File%%-->
+    </module>
+  </category>
+  <BootConfiguration>
+    <BootAnimation animation="/system/customize/resource/hTC_bootup_one.zip" audio="/system/customize/resource/HTC_Sense5_Boot.mp3" />
+  </BootConfiguration>
+  <ShutdownConfiguration>
+    <ShutdownAnimation image_png="/system/customize/resource/hTC_downanimation.zip" image="" fps="10" />
+  </ShutdownConfiguration>
+  <category name="SettingsProvider">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="def_screen_off_timeout">-2</item>
+          <item name="def_2g_on">2</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="Settings">
+    <module name="properties">
+      <function>
+        <set name="single">
+          <item name="market_name">HTC One_M8</item>
+        </set>
+      </function>
+    </module>
+    <module name="list">
+      <function name="regulatory_icon_list">
+        <set name="single">
+          <!--%%File%%-->
+          <item name="1">/system/customize/resource/rp_ce_0682_i.png</item>
+          <item name="14">/system/customize/resource/rp_eac.png</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="AutomotiveHome">
+    <module name="setting">
+      <function>
+        <set name="single">
+          <item name="default_Location">Google Maps Navigation</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="AudioService">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="enable_listen_notify">true</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="ACC">
+    <module name="Settings-Wireless_+_network-USB_tethering_">
+      <function name="settings">
+        <set>
+          <item name="Single_USB_tethering" type="boolean">false</item>
+        </set>
+      </function>
+    </module>
+    <module name="Phone">
+      <function name="settings">
+        <set>
+          <item name="auto_answer_on_def" type="boolean">true</item>
+        </set>
+      </function>
+    </module>
+  </category>
+</customization_form>

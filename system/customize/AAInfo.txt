@@ -1,0 +1,6 @@
+TaskID : 395184
+Project : M8_UL_K444_SENSE60_MR
+SKU : HTC Europe[401]
+ROM Ver : 3.28.401.7
+Customization Id : 866860
+RCMS Id : 379
