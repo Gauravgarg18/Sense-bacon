@@ -1,5 +1,5 @@
-ui_print("|        New ROM Flashing.....    			|");
-ui_print("|          							        |");
+ui_print("|        New ROM Flashing.....    	        |");
+ui_print("|          					|");
 ui_print("|  Remember to share your experience on XDA   |");
 ui_print("===============================================");
 ui_print("|    Every Donation is Greatly Appreciated !  |");
